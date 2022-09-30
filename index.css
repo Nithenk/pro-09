@@ -1,0 +1,41 @@
+.box{
+    border: 2px solid black;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    margin-top: 1in;;
+    background:white ;
+    font-family:sans-serif;
+}
+p:first-of-type {
+    margin: 10px;
+    font-size: 23px;
+
+}
+p:nth-child(2) {
+    margin:10px;
+    font-size: 15px;
+}
+p>a{
+    color:crimson
+}
+u{
+    color:green
+}
+table{
+    margin: 10px;
+    border-collapse: collapse;
+    font-family:sans-serif;
+}
+table th,td{
+    padding-right:50px;
+    padding-top:  2px;
+    padding-bottom: 2px;
+
+}
+tr:nth-child(even)
+{
+    background-color: black;
+    opacity: 0.8;
+    color:white
+}
